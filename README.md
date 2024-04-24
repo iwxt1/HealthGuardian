@@ -8,4 +8,7 @@ This is a repository using qlora fine-tuned on the Chinese Medical Question Answ
 [xtuner0.1.17](https://github.com/InternLM/xtuner). Added some latest config files like [Llama3_8B_instruct](https://github.com/InternLM/xtuner/blob/main/xtuner/configs/llama/llama3_8b_instruct/llama3_8b_instruct_qlora_alpaca_e3.py) manually, so you can clone the latest version of xtuner.
 
 ## finetune
-`ft.sh` contains the commands needed for fine-tuning. Set the corresponding path and then `bash ft.sh`
+`ft.sh` contains the commands needed for fine-tuning. Set the corresponding path and then `bash ft.sh`.
+
+It is also necessary to modify the parameters in the config file if you like.
+
